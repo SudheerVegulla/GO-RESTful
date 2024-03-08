@@ -1,0 +1,11 @@
+PUT http://localhost:8080/events/5
+content-type :application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QzQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA5OTA1Nzc3LCJ1c2VySWQiOjJ9.7p33_pG75zJBSnUuaN8iLTUkTsO7o20-2BeIkzfqtfM
+
+{
+    "name" : "updated1 test event",
+    "description" : "A test event1",
+    "location":" A test location(updated1!)",
+    "datetime":"2025-01-01T15:30:00.000Z"
+
+}
